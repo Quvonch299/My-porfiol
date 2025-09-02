@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+    --Playfair: 'Playfair Display', serif;
+    --Quicksand: 'Quicksand', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+    --dark: #3c393d;
+    --exDark: #2b2b2b;
+}
+
+.container {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.logo h2 {
+    font-family: var(--Playfair);
+}
+
+.link a {
+    font-family: var(--Quicksand);
+
+}
+
+html {
+    scroll-behavior: smooth;
+    /* sekin siljish */
+}
