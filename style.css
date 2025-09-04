@@ -26,3 +26,7 @@ html {
     scroll-behavior: smooth;
     /* sekin siljish */
 }
+
+.navbar {
+    /* position: fixed; */
+}
