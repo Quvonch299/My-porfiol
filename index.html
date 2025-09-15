@@ -395,6 +395,30 @@
             alert("Quvonch.Mo`minov")
         </script>
 
+        <button id="toTopBtn"
+            class="fixed bottom-6 right-6 w-14 h-14 rounded-full bg-white/10 flex items-center justify-center transition-transform transition-opacity duration-500">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="white"
+                stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+            </svg>
+        </button>
+
+        <script>
+            const btn = document.getElementById('toTopBtn');
+
+            btn.addEventListener('click', () => {
+                btn.classList.add('translate-y-[-220px]', 'opacity-0');
+
+                setTimeout(() => {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }, 200);
+
+                setTimeout(() => {
+                    btn.classList.remove('translate-y-[-220px]', 'opacity-0');
+                }, 900);
+            });
+        </script>
+
 
 
 
